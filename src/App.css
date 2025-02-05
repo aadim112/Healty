@@ -36,3 +36,298 @@
     transform: rotate(360deg);
   }
 }
+
+header{
+  width: 100%;
+  height: 60px;
+  background-color: #3E7B27;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo p{
+  margin-left: 0px;
+  font-family: poppins;
+}
+.logo img{
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+header p{
+  color: white;
+  font-size: 24px;
+  margin-left: 20px;
+}
+.nav-bar{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-right: 20px;
+}
+.nav-bar a{
+  text-decoration: none;
+}
+.nav-bar p{
+  color: white;
+  font-family: poppins;
+  font-size: 15px;
+  cursor: pointer;
+}
+.hero-section{
+  width: 100%;
+  height: 500px;
+  background-color: #cbfdb9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.headings{
+  width: 50%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+.top-heading{
+  width: 100%;
+  font-family: poppins;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 100px;
+}
+.extra-info{
+  width: 100%;
+  font-family: poppins;
+  text-align: left;
+}
+.doctor-login{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.doctor-login-form{
+  width: 400px;
+  height: 450px;
+  background-color: white;
+  border-radius: 8px;
+}
+.doctor-login-form h2{
+  margin-left: 10px;
+  font-family: poppins;
+  color: green;
+}
+.doctor-login-form form{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: poppins;
+}
+.doctor-login-form input{
+  border: 0px;
+  width: 300px;
+  font-size: 17px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.doctor-login-form input:focus{
+  outline: none;
+}
+.doctor-login-form label{
+  margin-left: 20px;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.doctor-login-form button{
+  margin-left: 20px;
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #3E7B27;
+  color: white;
+  font-family: poppins;
+  cursor: pointer;
+}
+.doctor-registration{
+  width: 100%;
+  height: auto;
+}
+.doctor-registration P{
+  margin-left: 20px;
+  font-family: poppins;
+  color: #3E7B27;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.doctor-registration form{
+  display: flex;
+  flex-direction: column;
+}
+.doctor-registration form label{
+  margin-left: 20px;
+  font-size: 12px;
+  margin-top: 20px;
+  font-family: poppins;
+}
+.doctor-registration form input{
+  border: 0px;
+  width: 300px;
+  font-size: 17px;
+  margin-left: 20px;
+  margin-top: 5px;
+  border-radius: 7px;
+  padding: 10px;
+}
+.doctor-registration form input:focus{
+  border: 2px solid #3E7B27;
+  outline: #3E7B27;
+}
+.doctor-registration form button{
+  margin-left: 20px;
+  width: 200px;
+  height: 30px;
+  margin-top: 20  px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #3E7B27;
+  color: white;
+  font-family: poppins;
+  cursor: pointer;
+}
+
+.doctor-info{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #c8f5b8;
+}
+.doc-container{
+  width: 25%;
+  height: 400px;
+  border-radius: 20px;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.doc-container p{
+  font-family: poppins;
+  margin: 0px;
+}
+.doc-image{
+  width: 170px;
+  height: 170px;  
+  border-radius: 50%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.doc-image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.search-patience{
+  width: 50%;
+  height: 500px;
+  border-radius: 20px;
+}
+.search-bar{
+  width: 80%;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+.search-bar form{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-bar input{
+  margin-left: 20px;
+  border:0px;
+  width: 200px;
+}
+.search-bar input:focus{
+  outline: none;
+}
+.search-bar button{
+  border: 0px;
+  cursor: pointer;
+  font-family: poppins;
+  margin-right: 20px;
+}
+.add-p{
+  width: 80%;
+  height: 350px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.add-p form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.add-p form label{
+  font-size: 12px;
+  margin-top: 20px;
+  font-family: poppins;
+}
+.add-p form input{
+  border: 0px;
+  width: 200px;
+  height: 20px;
+  font-size: 15px;
+  border-radius: 5px; 
+}
+.add-p form input:focus{
+  outline: none;
+}
+.add-p form button{
+  width: 150px;
+  margin-top: 10px;
+  height: 30px;
+  border-radius: 7px;
+  border: 0px;
+  cursor: pointer;
+}
+.p-container{
+  width: 100%;
+  height: 100%;
+  background-color: #77aa65;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+}
